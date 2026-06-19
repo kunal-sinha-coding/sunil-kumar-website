@@ -32,7 +32,7 @@ nav.pager .gap{border:none;background:none}
 .postnav a{color:var(--accent);text-decoration:none;max-width:46%}
 .backhome{display:inline-block;margin:6px 0 22px;color:var(--accent);text-decoration:none;font-variant:small-caps;letter-spacing:.5px}
 footer.site{border-top:1px solid var(--line);padding:24px 0 50px;color:var(--muted);font-size:.85rem;text-align:center}
-.summary{background:#fff;border:1px solid var(--line);border-radius:6px;padding:26px 30px;margin:0 0 34px}
+.summary{background:none;border:none;padding:0;margin:0 0 40px}
 .summary>p:first-child{margin-top:0}
 .summary h2{font-size:1.15rem;margin:1.4em 0 .4em;color:var(--accent);border-bottom:1px solid var(--line);padding-bottom:.2em}
 .summary h3{font-size:1.02rem;margin:1.1em 0 .25em}
