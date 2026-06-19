@@ -1,0 +1,25 @@
+
+:root{--bg:#f7f5f0;--card:#fff;--ink:#1a1a1a;--muted:#6b6b6b;--accent:#9a2617;--line:#e6e2d8}
+*{box-sizing:border-box}
+body{margin:0;font-family:Georgia,'Times New Roman',serif;background:var(--bg);color:var(--ink);line-height:1.6}
+.wrap{max-width:760px;margin:0 auto;padding:0 20px}
+header.site{border-bottom:2px solid var(--ink);margin-bottom:32px;padding:40px 0 24px}
+header.site h1{margin:0;font-size:2.4rem;letter-spacing:.5px}
+header.site p{margin:8px 0 0;color:var(--muted);font-size:1.05rem}
+.sub{font-variant:small-caps;letter-spacing:1px;color:var(--accent);font-weight:bold;font-size:.85rem}
+article.post{background:var(--card);border:1px solid var(--line);border-radius:6px;padding:22px 26px;margin:0 0 18px;transition:box-shadow .15s,transform .15s}
+article.post:hover{box-shadow:0 6px 20px rgba(0,0,0,.08);transform:translateY(-2px)}
+article.post .num{color:var(--accent);font-size:.8rem;font-weight:bold;letter-spacing:1px}
+article.post h2{margin:.3rem 0 .5rem;font-size:1.3rem;line-height:1.35}
+article.post h2 a{color:var(--ink);text-decoration:none}
+article.post h2 a:hover{color:var(--accent)}
+article.post .meta{font-size:.85rem;color:var(--muted)}
+article.post .read{display:inline-block;margin-top:10px;font-size:.85rem;color:var(--accent);text-decoration:none;font-variant:small-caps;letter-spacing:.5px}
+article.post .read:hover{text-decoration:underline}
+nav.pager{display:flex;flex-wrap:wrap;gap:6px;justify-content:center;margin:34px 0 60px}
+nav.pager a,nav.pager span{display:inline-block;min-width:38px;text-align:center;padding:7px 10px;border:1px solid var(--line);border-radius:4px;background:#fff;color:var(--ink);text-decoration:none;font-size:.9rem}
+nav.pager a:hover{border-color:var(--accent);color:var(--accent)}
+nav.pager .cur{background:var(--ink);color:#fff;border-color:var(--ink)}
+nav.pager .gap{border:none;background:none}
+footer.site{border-top:1px solid var(--line);padding:24px 0 50px;color:var(--muted);font-size:.85rem;text-align:center}
+footer.site a{color:var(--accent)}
